@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+        /* Container for buttons */
+        .custom-buttons-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        /* Styling for individual buttons */
+        .custom-button {
+            background-color: #0078D7; /* SharePoint blue color */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Button hover effect */
+        .custom-button:hover {
+            background-color: #005A9E; /* Darker blue */
+        }
+    </style>
+</head>
+<body>
+    <div class="custom-buttons-container">
+        <button class="custom-button">Button 1</button>
+        <button class="custom-button">Button 2</button>
+        <button class="custom-button">Button 3</button>
+    </div>
+</body>
+</html>
